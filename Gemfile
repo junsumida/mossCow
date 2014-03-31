@@ -24,6 +24,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'rack-camel_snake', :git => 'https://github.com/junsumida/rack-camel_snake.git'
 gem 'rack-server_errors', :git => 'https://github.com/junsumida/rack-server_errors.git'
+gem 'unicorn'
 
 # Test requirements
 group :development, :test do
